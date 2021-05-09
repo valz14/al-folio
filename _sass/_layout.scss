@@ -25,7 +25,7 @@
 // Profile
 .profile {
   img {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -37,6 +37,23 @@
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+
+.badge {
+  font-size: 100%;
+  font-weight: bold;
+  vertical-align: sub;
+  // color: var(--global-theme-color) !important;
+  color: black !important;
+  // border: 1px solid var(--global-theme-color);
+  transition: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+.col-sm-8 {
+  padding-left: 5%;
+  max-width: 100%;
+}
 
 
 /*****************************************************************************

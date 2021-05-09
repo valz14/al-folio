@@ -35,6 +35,11 @@ a, table.table a {
 
 // Profile
 
+p {
+  width: 65%;
+  font-size: 1.25rem;
+}
+
 .profile {
   margin-left: 1rem;
   width: 100%;
@@ -54,6 +59,7 @@ a, table.table a {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    text-align: right;
     .address {
       p { display: block; }
     }
@@ -158,6 +164,10 @@ a, table.table a {
 
 // News
 
+.news {
+  margin-top: 2rem;
+}
+
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
@@ -165,12 +175,16 @@ a, table.table a {
 
 .news table th {
   color: var(--global-text-color);
+  width: 15%;
+  text-align: right;
+  padding-right: 3rem;
 }
 
 // Social (bottom)
 
 .social {
   text-align: center;
+  margin-top: 3rem;
   .contact-icon {
     font-size: 4rem;
     a {
@@ -338,12 +352,15 @@ footer.sticky-bottom {
           }
         }
         .award {
-          color: var(--global-theme-color) !important;
+          color: white !important;
+          background: var(--global-theme-color);
           border: 1px solid var(--global-theme-color);
+          font-size: 80%;
+          display: block;
         }
       }
       .title {
-        font-weight: bolder;
+        font-weight: bold;
         font-size: 1.1rem;
       }
       .author {
@@ -427,4 +444,8 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+.publications ol.bibliography li .abbr abbr {
+  background-color: white;
 }
