@@ -18,5 +18,4 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I'm Valerie, a 3rd-year PhD student in Computer Science at the University
-of Chicago advised by [Blase Ur](https://www.blaseur.com/){:target="\_blank"}. My work aims to enhance the experiences of non-technical users in programming smart homes and social robots. 
+Hello! I'm Valerie, a PhD student in Computer Science at the University of Chicago, specializing in Human Computer Interaction and advised by [Blase Ur](https://www.blaseur.com/){:target="\_blank"}. My work aims to improve the experiences of novice users in programming smart homes and social robots. 
